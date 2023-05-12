@@ -24,7 +24,11 @@ export default function App() {
   const [selectedWorkout, setSelectedWorkout] = useState(null);
 
   const handleWorkoutSelect = (workout) => {
-    setSelectedWorkout(workout);
+    if (selectedWorkout === workout) {
+      setSelectedWorkout(null); // Deselect if the same workout is selected
+    } else {
+      setSelectedWorkout(workout); // Select the new workout
+    }
   };
 
   return (
