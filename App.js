@@ -33,8 +33,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Welcome to LiftStats!</Text>
-      <Text>Saved Workouts:</Text>
+      <Text style={styles.heading}>Welcome to LiftStats!</Text>
+      <Text style={styles.subheading}>Saved Workouts:</Text>
       <RadioButton
         label="Workout 1"
         selected={selectedWorkout === "Workout 1"}
@@ -89,5 +89,13 @@ const styles = StyleSheet.create({
   },
   radioButtonLabel: {
     fontSize: 16,
+  },
+  heading: {
+    fontSize: 28,
+    marginBottom: 50,
+  },
+  subheading: {
+    fontSize: 22,
+    marginBottom: 10,
   },
 });
