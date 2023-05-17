@@ -9,7 +9,7 @@ const RadioButton = ({ label, selected, onSelect }) => {
         <View
           style={[
             styles.radioButtonIcon,
-            { borderColor: selected ? "green" : "gray" },
+            { borderColor: selected ? "black" : "red" },
           ]}
         >
           {selected && <View style={styles.radioButtonSelected} />}
