@@ -1,15 +1,15 @@
 import React from "react";
 import { View, StatusBar, SafeAreaView, Text } from "react-native";
 
-const CreateWorkout = () => {
+const StartWorkout = () => {
   return (
     <View>
-      <StatusBar style="default" />
+      <StatusBar barStyle="default" />
       <SafeAreaView>
-        <Text>Create a New Workout Here</Text>
+        <Text>Select Calendar Day to Get Started</Text>
       </SafeAreaView>
     </View>
   );
 };
 
-export default CreateWorkout;
+export default StartWorkout;
