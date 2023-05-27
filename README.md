@@ -4,7 +4,7 @@
 - The purpose of this project is for the user to track their workout progress/ and fitness increases.
 - This will be done by allowing the user to create "workouts" which are made up of different exercises, sets, and reps, and then selecting their workout of choice on the calendar day.
 - They will then be able to modify the sets/reps/ and weight they perfromed for that specific day.
-- The user will be promoted to make an account so that all of their data will be stored in a database and progress never lost.
+- The user will be prompted to make an account so that all of their data will be stored in a database and progress never lost.
 
 ## Screens
 
