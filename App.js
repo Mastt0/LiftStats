@@ -1,5 +1,4 @@
 import React from "react";
-import { View, Text, StatusBar, SafeAreaView, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import LoginScreen from "./src/screens/LoginScreen";
