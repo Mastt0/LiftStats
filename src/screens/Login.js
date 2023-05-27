@@ -41,6 +41,10 @@ const Login = () => {
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Log In</Text>
         </TouchableOpacity>
+        <Text>Don't have an account?</Text>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Sign Up</Text>
+        </TouchableOpacity>
       </SafeAreaView>
     </View>
   );
@@ -68,6 +72,7 @@ const styles = StyleSheet.create({
     backgroundColor: "cyan",
     borderRadius: 5,
     padding: 10,
+    marginBottom: 40,
   },
   buttonText: {
     color: "black",
